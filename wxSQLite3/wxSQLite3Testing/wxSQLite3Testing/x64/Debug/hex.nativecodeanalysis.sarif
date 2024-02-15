@@ -1,0 +1,373 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/AES/Desktop/cryptopp-master/cryptlib.h"
+                },
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::Exception::{dtor}",
+                  "decoratedName": "??1Exception@CryptoPP@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/AES/Desktop/cryptopp-master/cryptlib.h"
+                },
+                "region": {
+                  "startLine": 260,
+                  "startColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::OS_Error::{dtor}",
+                  "decoratedName": "??1OS_Error@CryptoPP@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CryptoPP::BufferedTransformation::m_buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/AES/Desktop/cryptopp-master/cryptlib.h"
+                },
+                "region": {
+                  "startLine": 1662,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::BufferedTransformation::{ctor}",
+                  "decoratedName": "??0BufferedTransformation@CryptoPP@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CryptoPP::BufferedTransformation::m_buf"
+          }
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/AES/Desktop/cryptopp-master/queue.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "std::swap",
+                  "decoratedName": "??$swap@VByteQueue@CryptoPP@@$0A@@std@@YAXAEAVByteQueue@CryptoPP@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/AES/Desktop/cryptopp-master/cryptlib.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "12eb02d2bdf953ffd90d0c8ddcaf800dcb3e1890b8f0ea93b533b4087e82785c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/AES/Desktop/cryptopp-master/queue.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7a223d51a78bea39e6a7bdd02ae58cabfdda561e81e461550d240c47f8bd0264"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/wxsqlite3/wxsqlite3testing/wxsqlite3testing/hex.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "deddb8bffd21821fc66514aa69ed1808b1f366b4399d928be3d63ca090bcdcb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/wxsqlite3/wxsqlite3testing/wxsqlite3testing/pch.h"
+          },
+          "hashes": {
+            "sha-256": "d629cfec26c9317f637137f137550f6f8138292acfd677baf0a986a1db80056b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config.h"
+          },
+          "hashes": {
+            "sha-256": "641a512721c40a6778dfcc143b611c6204f38916bae55d391e2c74c18b70b2f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_align.h"
+          },
+          "hashes": {
+            "sha-256": "3a3f596ac05567c75b79d736319e561cf5ea01e06573d78bd479fb8673492bb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_asm.h"
+          },
+          "hashes": {
+            "sha-256": "d9215cd770e26923a18c61b641d56a485500d7c52fa8d45aa4611220eb27e758"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_os.h"
+          },
+          "hashes": {
+            "sha-256": "7a876d8032295b3e813dcafd2ea6788c527985c8464273e23d7c4d07c6b5c0c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_ver.h"
+          },
+          "hashes": {
+            "sha-256": "fc8ecd03f66cea3e8c99db529cb023e13405defcc511ece1877801281d2aabb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_cpu.h"
+          },
+          "hashes": {
+            "sha-256": "89b1dd39c3c479a590f2ca7fc2e9832f9d50f3b4fac01128a0b89acae88cbd71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_cxx.h"
+          },
+          "hashes": {
+            "sha-256": "0a5042e6ea886e2c38a9626585deb1409a56dbcd35a522e877b648fb9042a366"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_dll.h"
+          },
+          "hashes": {
+            "sha-256": "5f5f25287fc9a0bd49230edebaf6377b64f8020aa04d843cdd1a5449dd34c5e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_int.h"
+          },
+          "hashes": {
+            "sha-256": "99a41cf87cb25c898fe438f4ba1e9dbe209e652a0328bacc1adf5d6e4ff848b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_ns.h"
+          },
+          "hashes": {
+            "sha-256": "c4bc5ebf250efea647afb1873fb89f6b9dc540485f6f569f8b868cd9e8994ef9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/config_misc.h"
+          },
+          "hashes": {
+            "sha-256": "1918df9919402f747b862bffd1235f4087be76d48d34d4e3b9ee2820ed526823"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/wxsqlite3/wxsqlite3testing/wxsqlite3testing/hex.h"
+          },
+          "hashes": {
+            "sha-256": "c2d77dcba2ae606bfbe05375435a43e2172b3b036290424d57cf310d12d5d7d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/stdcpp.h"
+          },
+          "hashes": {
+            "sha-256": "35f068b2521c8ee31eeb1ea2810a352148a2854f47683363f914be4f090ef750"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/trap.h"
+          },
+          "hashes": {
+            "sha-256": "a82a30348451a7d113ddea392d03b834085802dd05c12c265546d3b90599403f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/basecode.h"
+          },
+          "hashes": {
+            "sha-256": "00483175aa5484357b4c154f16b8fbaf795f04ae0a9d01da4d503a585c285db7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/filters.h"
+          },
+          "hashes": {
+            "sha-256": "783038cf6411bcddcd92c0b900cbfbb4c9038dbfe828ae8fda444313215cf4a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/simple.h"
+          },
+          "hashes": {
+            "sha-256": "41a165d3b4ffce87755b28b878e08503d571558cffe5877b7e00cb84226ef373"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/misc.h"
+          },
+          "hashes": {
+            "sha-256": "13de68cfefceff3cc97f980a61b56931cff5bccac9eece0a6d6ab2bc98daa44d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/secblockfwd.h"
+          },
+          "hashes": {
+            "sha-256": "472e5d0fa333257c3b8254e5fddbcbaa803dae920f65d64542219c0b3b8400cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/smartptr.h"
+          },
+          "hashes": {
+            "sha-256": "a2d6f834c9e2890943a203ce7397976d8618e62c3d56f6a6afa456ffdc22e879"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/secblock.h"
+          },
+          "hashes": {
+            "sha-256": "7d83f568a249e674772fddeea33d4c1bf7b403a880aac82298ebf4729f597d7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/allocate.h"
+          },
+          "hashes": {
+            "sha-256": "6fbcf40f97fb72c1523bb597d28337623997bc5610f235b9d440b22289b6f970"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/algparam.h"
+          },
+          "hashes": {
+            "sha-256": "a0c1352f81ca19aee1329e00af0e8e298131851a5449ecd042e370a73d8d09d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/integer.h"
+          },
+          "hashes": {
+            "sha-256": "524baaeae6f5d23b9c07c13c3b34f1c89971d40357385a40b6346886f8b40d84"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/aes/desktop/cryptopp-master/argnames.h"
+          },
+          "hashes": {
+            "sha-256": "4fa6995e67001c2b744d64e2f7f36629cf489be21f1ff242fbc13da43df59769"
+          }
+        }
+      ]
+    }
+  ]
+}

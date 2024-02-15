@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\AES\Desktop\cryptopp-master\</FILEPATH>
+      <FILENAME>cryptlib.h</FILENAME>
+      <LINE>185</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>CryptoPP::Exception::{dtor}</FUNCTION>
+    <DECORATED>??1Exception@CryptoPP@@UEAA@XZ</DECORATED>
+    <FUNCLINE>185</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\AES\Desktop\cryptopp-master\</FILEPATH>
+      <FILENAME>cryptlib.h</FILENAME>
+      <LINE>260</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>CryptoPP::OS_Error::{dtor}</FUNCTION>
+    <DECORATED>??1OS_Error@CryptoPP@@UEAA@XZ</DECORATED>
+    <FUNCLINE>260</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\AES\Desktop\cryptopp-master\</FILEPATH>
+      <FILENAME>cryptlib.h</FILENAME>
+      <LINE>1662</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CryptoPP::BufferedTransformation::m_buf' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CryptoPP::BufferedTransformation::{ctor}</FUNCTION>
+    <DECORATED>??0BufferedTransformation@CryptoPP@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1662</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CryptoPP::BufferedTransformation::m_buf</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\AES\Desktop\cryptopp-master\</FILEPATH>
+      <FILENAME>queue.h</FILENAME>
+      <LINE>265</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>std::swap</FUNCTION>
+    <DECORATED>??$swap@VByteQueue@CryptoPP@@$0A@@std@@YAXAEAVByteQueue@CryptoPP@@0@Z</DECORATED>
+    <FUNCLINE>265</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
